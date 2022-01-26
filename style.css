@@ -1,3 +1,16 @@
+.white-input{
+	background-color: transparent;
+	color: currentColor;
+	}
+.form-check-input:checked {
+	background-color: #198754;
+	border-color: #198754;
+	}
+
+
+.cursor-pointner{
+	cursor: pointer;
+	}
 .opacity{
 	opacity: 0.3;
 	}
@@ -54,6 +67,14 @@ a {
 .scale2:hover {
 	transform: scale(1.1); /* Увеличиваем масштаб */
 	}
+.scale3 {
+	transition: 0.3s; /* Время эффекта */
+	}
+.scale3:hover {
+	transform: scale(1.04); /* Увеличиваем масштаб */
+	box-shadow: 5px 5px 5px #2a2b2e;
+	}
+
 .table>:not(:first-child){
 	border-top: 2px solid #1b1e20;
 	}
