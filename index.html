@@ -21,6 +21,7 @@
 
 		<link rel="stylesheet" href="style.css">
 		<script src="scripts.js"></script>
+		<script src="log.js"></script>
 
 		<title>RIPPERS</title>
 
@@ -30,33 +31,37 @@
     outline-offset: 0;
     border: 0;
 }
+	.col-md-5{
+		padding: 0;
+		margin: 0;
+		padding-top: 14px;
+	}
+	.row{
+		padding: 0;
+		margin: 0;
+	}
 </style>
 
 	</head>
 	<body style="background-color: #36393f;">
 
-<p class="text-center" style="padding-top: 10%;">
-<input class="zero text-center" style="font-size: 70px; width: 400px; background-color: #36393f; border: 0; color: #fff;" type='password' id="pas" onchange="CheckPassword()"/> 
-</p>
+	<div style="width: 465px; margin-left: auto; margin-right: auto; margin-top: 100px;">
+		<img src="images/404.svg">
+	</div>
 
+	<div class="row" style="margin-top: 50px;">
+		<div class="col-md-5"><img src="images/cabel-a.svg"></div>
+		<div class="col-md-2">
+			<input class="zero text-center" style="font-size: 70px; width: 100%; background-color: #36393f; border: 0; color: #fff;" type='password' id="pas" onchange="CheckPassword()"/>
+		</div>
+		<div class="col-md-5"><img src="images/cabel-b.svg"></div>
+	</div>
 
+	<div class="row text-center" style="color: #7e8585; font-size: 20px; padding-top: 20px;"><p>We're sorry, the page you requested could not be found<br>Please go back to the Discord server and contact the administrator</p></div>
 
-
-
-
-<script type="text/javascript">
-function CheckPassword(){   
-	var passw = "2013";  
-	var pasCode = document.getElementById("pas");
-	if((pasCode.value.match(/2013/g) != null) && pasCode.value.match(/2013/g)[0] == passw){   
-		window.location.href = "TKLI-Time-Zones.html";
-	}  
-	else{   
-		alert('Wrong...!')  
-		return false;  
-	}  
-} 
-</script> 
+	<div class="text-center">
+		<a href="https://discord.gg/7sQHsMt4" class="btn btn-danger btn-lg" role="button" aria-pressed="true"><img height="20" src="images/discord.png"><b> RIPPERS</b></a>
+	</div>
 
 	</body>
 </html>
