@@ -106,3 +106,58 @@ a {
 		}
 	}
 /* ============ small devices .end// ============ */
+
+
+/* ============ raid-table ============ */
+/* HIDE checkbox */
+[type=checkbox] { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* IMAGE STYLES */
+[type=checkbox] + img {
+	cursor: pointer;
+	opacity: 0.1;
+	width: 50px;
+}
+
+/* CHECKED STYLES */
+[type=checkbox]:checked + img {
+	/*outline: 2px solid #f00;*/
+	opacity: 1;
+}
+
+.nav-link{
+	padding: 3px;
+}
+.nav-tabs .nav-link.active{
+	background: transparent;
+	border-color: transparent;
+	opacity: 1;
+	border: 0;
+}
+.nav-tabs .nav-link{
+	opacity: 0.1;
+	border: 0;
+	padding-top: 0px;
+}
+.nav-tabs .nav-link: hover{
+	border: 0;
+}
+.nav-tabs{
+	border-bottom: 0;
+	border: 0;
+}
+.nav-tabs: hiver{
+	border-bottom: 0;
+	border: 0;
+}
+
+.por-nomer{
+	width: 70px;
+	text-align: center;
+}
+/* ============ raid-table .end// ============ */
